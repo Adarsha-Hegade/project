@@ -1,0 +1,47 @@
+[
+  {
+    "name": "dual",
+    "variations": ["dual-white", "dual-black"],
+    "related": ["single", "triple"]
+  },
+  {
+    "name": "single",
+    "variations": ["single-white", "single-black"],
+    "related": ["dual", "triple"]
+  },
+  {
+    "name": "triple",
+    "variations": ["triple-white", "triple-black"],
+    "related": ["single", "dual"]
+  },
+  {
+    "name": "dual-white",
+    "variations": [],
+    "related": ["dual", "dual-black"]
+  },
+  {
+    "name": "dual-black",
+    "variations": [],
+    "related": ["dual", "dual-white"]
+  },
+  {
+    "name": "single-white",
+    "variations": [],
+    "related": ["single", "single-black"]
+  },
+  {
+    "name": "single-black",
+    "variations": [],
+    "related": ["single", "single-white"]
+  },
+  {
+    "name": "triple-white",
+    "variations": [],
+    "related": ["triple", "triple-black"]
+  },
+  {
+    "name": "triple-black",
+    "variations": [],
+    "related": ["triple", "triple-white"]
+  }
+]
