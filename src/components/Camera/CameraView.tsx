@@ -13,8 +13,8 @@ export function CameraView({ onError }: CameraViewProps) {
         .getUserMedia({ 
           video: { 
             facingMode: "environment",
-            width: { ideal: window.innerWidth },
-            height: { ideal: window.innerHeight }
+            // width: { ideal: window.innerWidth },
+            // height: { ideal: window.innerHeight }
           } 
         })
         .then((stream) => {
