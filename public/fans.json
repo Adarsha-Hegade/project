@@ -2,7 +2,7 @@
   {
     "name": "dual",
     "variations": ["dual-white", "dual-black"],
-    "related": ["single", "triple", "triple-white", "triple-black", "single-white", "single-black"]
+    "related": ["single", "triple", "triple-white", "triple-black", "single-white", "single-black", "triple", "triple-white", "triple-black", "single-white", "single-black", "triple", "triple-white", "triple-black", "single-white", "single-black"]
   },
   {
     "name": "single",

@@ -23,7 +23,7 @@ export function Toolbar({ isOpen, currentFan }: ToolbarProps) {
         <div className="mb-4">
           <h2 className="text-xl font-semibold text-white">Related Models</h2>
         </div>
-        <div className="hide-scrollbar flex gap-4 overflow-x-auto pb-4">
+        <div className="hide-scrollbar w-100 h-100 flex gap-4 overflow-x-auto pb-4">
           {currentFanData.related.map((fanName) => (
             <FanCard key={fanName} fanName={fanName} />
           ))}
